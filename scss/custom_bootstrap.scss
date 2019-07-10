@@ -1,0 +1,10 @@
+// override default colors
+// import boostrap
+
+$theme-colors: (
+  "primary": #F3635B,
+  "light": #fafafa,
+  "danger": blue
+);
+
+@import "../bootstrap/scss/bootstrap";
