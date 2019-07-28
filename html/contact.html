@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!-- font-family: 'Open Sans', sans-serif; -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/app.css">
+
+    <title>Ark4Art Events</title>
+  </head>
+  <body>
+    
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="../index.html">
+          <img src="../images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <h3 class="d-inline">Ark4Art</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Upcoming Events <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="past_events.html">Past Events <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-none" href="#">Partners</a>
+          </li> 
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- home page section -->
+    <section id="contactPage">
+      <div class="container-fluid text-dark text-center mt-0 mt-md-5 pt-0 pt-md-5">
+          <div class="row justify-content-center pt-5">
+            <div class="col-10 col-md-8 col-xl-6  mt-5">
+
+                <p class="my-0">To find out more about Ark4Art or to get involved e-mail us at:</p>
+                <a href="mailto:hello@ark4art.com?subject=More Information - Ark4Art" target="_self" data-content="hello@ark4art.com" data-type="mail">hello@ark4art.com</a>
+                <p>...or fill in the below form</p>
+                <form id="feedbackForm" name="feedbackForm" method="post" action="feedback.php">
+                    <div class="form-group row justify-content-center">
+                        <label for="contactName" class="col-form-label d-none">Your Name</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="contactName" class="form-control" id="contactName" aria-describedby="nameHelp" placeholder="name">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <label for="contactEmail" class="col-form-label d-none">Your Email</label>
+                        <div class="col-sm-8">
+                            <input type="email" name="contactEmail" class="form-control" id="contactEmail" aria-describedby="nameColumn" placeholder="email">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <div class="col-sm-8">
+                            <textarea name="feedbackMessage" class="form-control" id="feedbackMessage" rows="5" placeholder="message" required="true"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Send</button>
+                </form>
+
+
+
+
+
+            </div>  
+          </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <!-- <p>All rights reserved</p> -->
+
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">  
+      (function () {  
+          'use strict';  
+          window.addEventListener('load', function () {  
+              var form = document.getElementById('needs-validation');  
+              form.addEventListener('submit', function (event) {  
+                  if (form.checkValidity() === false) {  
+                      event.preventDefault();  
+                      event.stopPropagation();  
+                  }  
+                  form.classList.add('was-validated');  
+              }, false);  
+          }, false);  
+      })();  
+    </script>
+
+  </body>
+</html>
