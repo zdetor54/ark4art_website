@@ -56,6 +56,17 @@ i.social-media-icons {
     height:100vh;
 }
 
+#partnersPage{
+    background: url("../images/partners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    // margin-top: 60px;
+    // min-height: 680px;
+    height:100vh;
+}
+
 #contactPage{
     background: url("../images/contact.jpg");
     background-repeat: no-repeat;
@@ -262,6 +273,12 @@ i.social-media-icons {
             font-size: 1.2rem;
             color: #F3635B;
         }
+    }
+
+    #partnersPage{
+        // min-height: 300px;
+        height:50vh;
+        background: url("../images/partners.jpg") center center / cover no-repeat;
     }
 
     #contactPage{
