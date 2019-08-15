@@ -7755,6 +7755,8 @@ i.social-media-icons {
   font-size: 0.9rem; }
   #eventInfo p {
     margin-bottom: 0.6rem; }
+  #eventInfo .blockquote p {
+    font-size: 1rem; }
 
 @media (max-width: 768px) {
   .navbar {
