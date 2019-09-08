@@ -2,7 +2,7 @@
 
 // // ------------- CONFIGURABLE SECTION ------------------------
 
-$mailto = 'zdetor54@gmail.com' ;
+$mailto = 'hello@ark4art.com' ;
 $subject = "Comments from the Website" ;
 
 // the pages to be displayed, eg
