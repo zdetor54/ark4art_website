@@ -1,0 +1,6 @@
+# GitHub Pages configuration for ark4art_website
+# Exclude Bootstrap directory to prevent Jekyll from processing it
+exclude:
+  - bootstrap/
+  - README.md
+  - scss/
